@@ -7,7 +7,7 @@ body{
     text-align: center;
     background-color: #d2dae2;
     width: 500px;
-    height: 200px;
+    height: 100%;
     margin: 1rem auto;
     border-radius: 20px;
 }
@@ -33,4 +33,14 @@ button{
     font-weight: 600;
     margin: 1rem;
     color: #ffffff;
+}
+#result{
+    font-weight: 800;
+    
+}
+@media screen and (max-width:576px) {
+    .container{
+        max-width: 300px;
+      
+    }
 }
